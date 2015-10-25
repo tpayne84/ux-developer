@@ -187,10 +187,10 @@ namespace UX_Developer
 			}
 
 			// Should we leave the console window open or not?
-			if (settings.AutoExitApp)
+			if (!settings.AutoExitApp)
 			{
 				Logger.NewLine();
-				Logger.WriteLine(@"Press any key to exit");
+				Logger.WriteLine(@"Press any key to exit...");
 				Console.ReadKey();
 			}
 		}
