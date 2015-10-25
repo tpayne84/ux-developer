@@ -72,7 +72,7 @@ namespace UX_Developer.Logger
 		}
 
 		/// <summary>
-		/// Increases Indentation Level
+		/// Writes a NewLine
 		/// </summary>
 		public void NewLine()
 		{
